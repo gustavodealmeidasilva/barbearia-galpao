@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Barbearia Galpão</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&family=Special+Elite&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#">Barbearia Galpão</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#galeria">Galeria</a></li>
+      <li><a href="#depoimentos">Depoimentos</a></li>
+      <li><a href="#contato" class="nav-cta">Agendar</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div>
+      <p class="hero-eyebrow">São Borja, RS — Desde 2009</p>
+      <h1 class="hero-title">Barbearia<br><span>Galpão</span></h1>
+      <p class="hero-sub">Tradição. Navalha. Caráter.</p>
+      <p class="hero-desc">Cortes precisos, atendimento de respeito e o cheiro de couro que só um galpão de verdade tem. Aqui o gaúcho sai do jeito que merece.</p>
+      <a href="#contato" class="btn-primary">Agendar horário</a>
+      <a href="#servicos" class="btn-outline">Ver serviços</a>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Rolar</span>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section id="diferenciais">
+    <div class="diferencial">
+      <div class="diferencial-num">15+</div>
+      <div class="diferencial-label">Anos de experiência</div>
+    </div>
+    <div class="diferencial">
+      <div class="diferencial-num">4.200</div>
+      <div class="diferencial-label">Clientes atendidos</div>
+    </div>
+    <div class="diferencial">
+      <div class="diferencial-num">3</div>
+      <div class="diferencial-label">Barbeiros especializados</div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos">
+    <p class="section-eyebrow">O que fazemos</p>
+    <h2 class="section-title">Nossos <em>serviços</em></h2>
+    <div class="servicos-grid">
+      <div class="servico-card">
+        <div class="servico-nome">Corte Clássico</div>
+        <p class="servico-desc">Tesoura e pente, do jeito que o gaúcho gosta. Acabamento caprichado.</p>
+        <div class="servico-preco">R$ 35 <span>/ serviço</span></div>
+      </div>
+      <div class="servico-card">
+        <div class="servico-nome">Barba na Navalha</div>
+        <p class="servico-desc">Toalha quente, espuma artesanal e navalha afiada. Ritual completo.</p>
+        <div class="servico-preco">R$ 30 <span>/ serviço</span></div>
+      </div>
+      <div class="servico-card">
+        <div class="servico-nome">Pacote Galpão</div>
+        <p class="servico-desc">Corte + barba + hidratação capilar. O combo completo do patrão.</p>
+        <div class="servico-preco">R$ 75 <span>/ combo</span></div>
+      </div>
+      <div class="servico-card">
+        <div class="servico-nome">Corte Degradê</div>
+        <p class="servico-desc">Fade preciso nas laterais com acabamento na tesoura no topo.</p>
+        <div class="servico-preco">R$ 45 <span>/ serviço</span></div>
+      </div>
+      <div class="servico-card">
+        <div class="servico-nome">Hidratação Capilar</div>
+        <p class="servico-desc">Tratamento com produtos premium pra deixar o cabelo no jeito.</p>
+        <div class="servico-preco">R$ 25 <span>/ serviço</span></div>
+      </div>
+      <div class="servico-card">
+        <div class="servico-nome">Nevou nas Têmporas</div>
+        <p class="servico-desc">Coloração das têmporas pra um visual maduro e elegante.</p>
+        <div class="servico-preco">R$ 40 <span>/ serviço</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="sobre-img"></div>
+    <div class="sobre-content">
+      <p class="section-eyebrow">Nossa história</p>
+      <h2 class="section-title">Mais de <em>15 anos</em> de navalha e respeito</h2>
+      <p>A Barbearia Galpão nasceu num barracão de esquina em São Borja, com uma cadeira velha, uma navalha boa e muita vontade. Desde o primeiro corte, a missão foi sempre a mesma: atender o homem gaúcho com o respeito que ele merece.</p>
+      <p>Aqui não tem pressa. Cada cliente senta, conta as novidades e sai parecendo outro. A gente acredita que um bom corte muda o dia inteiro.</p>
+      <div class="sobre-assinatura">— Seu Valdemar</div>
+      <div class="sobre-cargo">Fundador & Barbeiro Chefe</div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria">
+    <p class="section-eyebrow">Nosso trabalho</p>
+    <h2 class="section-title">A navalha <em>fala</em> por si</h2>
+    <div class="galeria-grid">
+      <div class="galeria-item">
+        <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&q=80" alt="Corte de cabelo" />
+      </div>
+      <div class="galeria-item">
+        <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80" alt="Barbearia" />
+      </div>
+      <div class="galeria-item">
+        <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80" alt="Barba" />
+      </div>
+      <div class="galeria-item">
+        <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&q=80" alt="Navalha" />
+      </div>
+      <div class="galeria-item">
+        <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&q=80" alt="Corte degradê" />
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section id="depoimentos">
+    <p class="section-eyebrow">O que dizem</p>
+    <h2 class="section-title">Palavra de <em>cliente</em></h2>
+    <div class="depoimentos-grid">
+      <div class="depoimento">
+        <p class="depoimento-texto">"Venho aqui há oito anos. Tentei outras barbearias, voltei em duas semanas. Não tem comparação."</p>
+        <div class="depoimento-autor">Carlos R.</div>
+        <div class="depoimento-cidade">São Borja, RS</div>
+      </div>
+      <div class="depoimento">
+        <p class="depoimento-texto">"O Pacote Galpão é o melhor investimento da semana. Saio renovado e com o ânimo lá em cima."</p>
+        <div class="depoimento-autor">Rodrigo M.</div>
+        <div class="depoimento-cidade">Uruguaiana, RS</div>
+      </div>
+      <div class="depoimento">
+        <p class="depoimento-texto">"O único lugar onde a barba na navalha parece que foi feita por um artista. Ambiente acolhedor demais."</p>
+        <div class="depoimento-autor">Fábio A.</div>
+        <div class="depoimento-cidade">São Borja, RS</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="contato-info">
+      <p class="section-eyebrow">Nos encontre</p>
+      <h2 class="section-title">Vem tomar <em>um mate</em> com a gente</h2>
+
+      <div class="info-item">
+        <div class="info-icon">—</div>
+        <div>
+          <div class="info-label">Endereço</div>
+          <div class="info-value">Rua Marechal Floriano, 412<br>Centro — São Borja, RS</div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">—</div>
+        <div>
+          <div class="info-label">WhatsApp</div>
+          <div class="info-value">(55) 99999-0000</div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">—</div>
+        <div>
+          <div class="info-label">Instagram</div>
+          <div class="info-value">@barbeariagalpao</div>
+        </div>
+      </div>
+
+      <div class="horarios">
+        <p class="info-label" style="margin-bottom:1rem">Horário de funcionamento</p>
+        <div class="horario-row"><span>Segunda — Sexta</span><span>08h às 19h</span></div>
+        <div class="horario-row"><span>Sábado</span><span>08h às 17h</span></div>
+        <div class="horario-row"><span>Domingo</span><span>Fechado</span></div>
+      </div>
+    </div>
+
+    <div>
+      <p class="section-eyebrow">Agende seu horário</p>
+      <h2 class="section-title">Manda <em>mensagem</em></h2>
+      <div class="contato-form">
+        <input type="text" placeholder="Seu nome" />
+        <input type="tel" placeholder="WhatsApp" />
+        <input type="text" placeholder="Serviço desejado (ex: Pacote Galpão)" />
+        <textarea placeholder="Alguma observação? Horário preferido?"></textarea>
+        <a href="https://wa.me/5555999990000" class="btn-primary" style="text-align:center">Enviar pelo WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Barbearia Galpão</div>
+    <div class="footer-copy">© 2025 Barbearia Galpão · São Borja, RS</div>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">WhatsApp</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>
