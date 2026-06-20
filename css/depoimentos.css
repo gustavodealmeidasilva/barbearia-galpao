@@ -1,0 +1,40 @@
+#depoimentos {
+  background: var(--mogno);
+  padding: 7rem 4rem;
+  border-top: 2px solid var(--ouro);
+  border-bottom: 2px solid var(--ouro);
+}
+
+.depoimentos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3.5rem;
+}
+
+.depoimento {
+  background: rgba(15,13,11,0.4);
+  padding: 2.5rem;
+  border-left: 3px solid var(--ouro);
+}
+
+.depoimento-texto {
+  font-size: 1rem;
+  color: var(--creme);
+  opacity: 0.85;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.depoimento-autor {
+  font-family: 'Special Elite', serif;
+  color: var(--ouro);
+  font-size: 0.95rem;
+}
+
+.depoimento-cidade {
+  font-size: 0.75rem;
+  color: var(--areia);
+  letter-spacing: 0.1em;
+}

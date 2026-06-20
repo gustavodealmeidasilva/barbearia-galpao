@@ -1,0 +1,49 @@
+#servicos {
+  padding: 7rem 4rem;
+  background: var(--preto);
+}
+
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1px;
+  background: rgba(184,134,11,0.15);
+  border: 1px solid rgba(184,134,11,0.15);
+}
+
+.servico-card {
+  background: var(--preto);
+  padding: 2.5rem;
+  transition: background 0.25s;
+}
+
+.servico-card:hover {
+  background: var(--mogno);
+}
+
+.servico-nome {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  color: var(--branco);
+  margin-bottom: 0.5rem;
+}
+
+.servico-desc {
+  font-size: 0.9rem;
+  color: var(--areia);
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+.servico-preco {
+  font-family: 'Special Elite', serif;
+  font-size: 1.6rem;
+  color: var(--ouro);
+}
+
+.servico-preco span {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8rem;
+  color: var(--areia);
+  letter-spacing: 0.1em;
+}

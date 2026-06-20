@@ -1,0 +1,41 @@
+#sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 60vh;
+}
+
+.sobre-img {
+  background:
+    linear-gradient(to right, rgba(15,13,11,0.3), rgba(15,13,11,0.7)),
+    url('../images/sobre-bg.jpg') center/cover no-repeat;
+}
+
+.sobre-content {
+  background: var(--mogno);
+  padding: 6rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sobre-content p {
+  color: var(--creme);
+  opacity: 0.85;
+  font-size: 1.05rem;
+  margin-bottom: 1.2rem;
+}
+
+.sobre-assinatura {
+  font-family: 'Special Elite', serif;
+  font-size: 1.4rem;
+  color: var(--ouro);
+  margin-top: 1.5rem;
+}
+
+.sobre-cargo {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--areia);
+  margin-top: 0.2rem;
+}

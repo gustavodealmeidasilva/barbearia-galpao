@@ -1,0 +1,79 @@
+:root {
+  --preto:  #0f0d0b;
+  --mogno:  #3b1f0e;
+  --couro:  #7a4a22;
+  --areia:  #c9a97a;
+  --creme:  #f0e6d3;
+  --branco: #faf7f2;
+  --ouro:   #b8860b;
+}
+
+body {
+  background: var(--preto);
+  color: var(--creme);
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+/* ── Componentes globais reutilizados em múltiplas seções ── */
+.section-eyebrow {
+  font-family: 'Special Elite', serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.35em;
+  color: var(--ouro);
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+}
+
+.section-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: var(--branco);
+  margin-bottom: 3.5rem;
+  line-height: 1.1;
+}
+
+.section-title em {
+  color: var(--ouro);
+  font-style: italic;
+}
+
+.btn-primary {
+  display: inline-block;
+  background: var(--ouro);
+  color: var(--preto);
+  padding: 1rem 2.6rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn-primary:hover {
+  background: var(--areia);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  display: inline-block;
+  border: 1px solid var(--areia);
+  color: var(--areia);
+  padding: 1rem 2.6rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.btn-outline:hover {
+  border-color: var(--ouro);
+  color: var(--ouro);
+}

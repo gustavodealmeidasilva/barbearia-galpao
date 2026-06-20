@@ -1,0 +1,35 @@
+#diferenciais {
+  background: var(--mogno);
+  padding: 5rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  border-top: 2px solid var(--ouro);
+  border-bottom: 2px solid var(--ouro);
+}
+
+.diferencial {
+  padding: 2.5rem 3rem;
+  text-align: center;
+  border-right: 1px solid rgba(184,134,11,0.25);
+}
+
+.diferencial:last-child {
+  border-right: none;
+}
+
+.diferencial-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--ouro);
+  line-height: 1;
+  margin-bottom: 0.3rem;
+}
+
+.diferencial-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--areia);
+}
